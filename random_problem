@@ -1,0 +1,15 @@
+#Write a code to return True if the list’s first and last numbers are the same. 
+# If the numbers are different, return False.
+
+#make a list and ask for input
+n = int(input("How many items? "))
+items = []
+for i in range(n):
+    items.append(input(f"Item {i+1}: "))
+print(items)
+
+#compare the list's first element with the last element
+if items[0]==items[n-1]:
+    print("TRUE")
+else:
+    print("FALSE")
